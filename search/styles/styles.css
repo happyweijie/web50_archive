@@ -1,0 +1,73 @@
+/* Prompt with rounded corner */
+#prompt {
+  border-radius: 25px;
+  border: 1px solid lightgrey;
+  padding: 0.5em 1em;
+  height: auto;
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  margin: 1em auto;
+  box-sizing: border-box;
+}
+
+/* Link color and non-underline when not hovering over it*/
+a:link, a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* Link underlined when hovered*/
+a:hover {
+  text-decoration: underline;
+}
+
+/* Right align links*/
+a {
+  float: right;
+  margin: 5px;
+}
+
+.row {
+  display: inline-block;
+}
+
+.grey {
+  color: grey;
+}
+
+/* Styling for links at top*/
+.top_links {
+  font-size: 15px;
+  font-family: arial, sans-serif;
+}
+
+/* Styles for Advanced Search page */
+.advanced_header {
+  font-size: 20px;
+  font-family: arial, sans-serif;
+  color: #d93025;
+}
+
+.advanced_form {
+  text-align: left;
+  font-family: arial, sans-serif;
+  font-size: arial, sans-serif;
+}
+
+.prompt_info {
+  font-family: arial, sans-serif;
+  font-size: 14.4px;
+}
+
+@media (max-width: 800px) {
+  .optional {
+    display: none;
+  }
+}
+/* Images */
+#logo {
+  max-width: 272px;
+}
+
+/*# sourceMappingURL=styles.css.map */

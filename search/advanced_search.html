@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advanced Search</title>
+        <link href="images/head_logo.png" rel="icon">
+        <link href="styles/styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="top_links d-flex justify-content-end gap-3 pt-4 pe-4">
+            <a href="index.html">Google Search</a>
+        </div>
+        <div class="container-xl">
+            <p class="advanced_header">Advanced Search</p>
+        </div>
+        <hr>
+
+        <div class="container-xl">
+            <form class="advanced_form" action="https://google.com/search">
+                <div class="row mb-2">
+                    <div class="col-12 col-md-8">
+                        Find pages with...
+                    </div>
+                    <div class="col-12 col-md-4 grey d-none d-md-block">
+                        <b>To do this in the search box.</b>
+                    </div> 
+                </div>
+                <div class="row align-items-center mb-2">
+                    <div class="col-12 col-md-3 prompt_info">
+                        all these words:
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <input type="text" class="form-control" name="as_q">
+                    </div>
+                    <div class="col-12 col-md-4 prompt_info optional d-none d-md-block">
+                        Type the important words: tri-colour rat terrier
+                    </div>
+                </div>
+                <div class="row align-items-center mb-2">
+                    <div class="col-12 col-md-3 prompt_info">
+                        this exact word or phrase:
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <input type="text" class="form-control" name="as_epq">
+                    </div>
+                    <div class="col-12 col-md-4 prompt_info optional d-none d-md-block">
+                        Put exact words in quotes: "rat terrier"
+                    </div>
+                </div>
+                <div class="row align-items-center mb-2">
+                    <div class="col-12 col-md-3 prompt_info">
+                        any of these words:
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <input type="text" class="form-control" name="as_oq">
+                    </div>
+                    <div class="col-12 col-md-4 prompt_info optional d-none d-md-block">
+                        Type OR between all the words you want: miniature OR standard
+                    </div>
+                </div>
+                <div class="row align-items-center mb-2">
+                    <div class="col-12 col-md-3 prompt_info">
+                        none of these words:
+                    </div>
+                    <div class="col-12 col-md-5">
+                        <input type="text" class="form-control" name="as_eq">
+                    </div>
+                    <div class="col-12 col-md-4 prompt_info optional d-none d-md-block">
+                        Put a minus sign just before words that you don't want: <br>-rodent, -"Jack Russell"
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-12 col-md-3"></div>
+                    <div class="col-12 col-md-5 text-end">
+                        <input type="submit" class="btn btn-primary">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
